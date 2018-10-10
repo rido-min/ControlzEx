@@ -24,6 +24,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControlzEx.Showcase", "Cont
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControlzEx", "ControlzEx\ControlzEx.csproj", "{9BC8C5D7-D025-401F-89A7-27200667BBF2}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControlzEx.CoreDemo", "ControlzEx.CoreDemo\ControlzEx.CoreDemo.csproj", "{28C899C4-DE07-4A96-90F7-6A23EBEFD538}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +40,10 @@ Global
 		{9BC8C5D7-D025-401F-89A7-27200667BBF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BC8C5D7-D025-401F-89A7-27200667BBF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BC8C5D7-D025-401F-89A7-27200667BBF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28C899C4-DE07-4A96-90F7-6A23EBEFD538}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28C899C4-DE07-4A96-90F7-6A23EBEFD538}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28C899C4-DE07-4A96-90F7-6A23EBEFD538}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28C899C4-DE07-4A96-90F7-6A23EBEFD538}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
