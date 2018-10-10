@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Wpf">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.DesktopUI" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ApplicationDefinition Include="..\ControlzEx.Showcase\App.xaml" Link="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="..\ControlzEx.Showcase\MainWindow.xaml.cs" Link="MainWindow.xaml.cs" />
+    <Compile Include="..\ControlzEx.Showcase\WindowChromeWindow.cs" Link="WindowChromeWindow.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\ControlzEx.Showcase\app.manifest" Link="app.manifest" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Include="..\ControlzEx.Showcase\MainWindow.xaml" Link="MainWindow.xaml" />      
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ControlzEx\ControlzEx.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Windows.Interactivity">
+      <HintPath>..\ExtLibs\NET45\System.Windows.Interactivity.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
